@@ -1,0 +1,42 @@
+*:focus {
+  outline: none;
+}
+
+h1 {
+  color: black;
+  font-size: 26pt;
+}
+input[type=text] {
+  border: none;
+  background: transparent;
+  border-bottom: dotted grey;
+  height: 32pt;
+  font-size: 24pt;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+  font-size: 24pt;
+  cursor: pointer;
+  position: relative;
+}
+
+li:hover {
+  color: grey;
+}
+li:hover {
+  text-decoration: line-through;
+}
+
+.content {
+  max-width: 320px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

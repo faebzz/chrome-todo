@@ -1,12 +1,10 @@
 {
-  "manifest_version": 2,
-  "name": "Todo App",
-  "version": "1",
-  "permissions": [],
-  "app": {
-    "background": {
-      "scripts": ["background.js"]
+    "name": "Todo App",
+    "description": "Simple Todo App",
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "permissions" : ["storage"],
+    "chrome_url_overrides" : {
+        "newtab": "app.html"
     }
-  },
-  "minimum_chrome_version": "28"
-}
+ }
