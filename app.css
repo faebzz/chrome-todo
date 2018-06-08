@@ -1,7 +1,9 @@
 *:focus {
   outline: none;
 }
-
+body {
+  background: url('https://source.unsplash.com/1600x900/?nature,landscape') no-repeat center center fixed;
+}
 h1 {
   color: black;
   font-size: 26pt;
@@ -39,4 +41,7 @@ li:hover {
   left: 0;
   right: 0;
   margin: auto;
+  padding: 25px;
+  border-radius: 6px;
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5));
 }
